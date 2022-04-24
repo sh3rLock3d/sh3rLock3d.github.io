@@ -303,3 +303,42 @@ footer a:not(.nav-link) {
 .timeline-card-success:before {
   border-color: var(--bs-teal); }
 
+
+/* collapsible list */
+.collapsibleList {
+  background-color: #B2FFFF;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.active, .collapsibleList:hover {
+  background-color: red;
+}
+
+.collapsibleList:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.activeList:after {
+  content: "\2212";
+}
+
+.contentList {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
