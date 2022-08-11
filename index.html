@@ -193,7 +193,28 @@
                             </div>
                             <div class="timeline-body px-4 pb-4">
                                 <div class="text-muted text-small mb-3">Fall 2017 - Spring 2022 (expected)</div>
+                                <div class="text-muted text-small mb-3">GPA (excluding 6 HW-related courses): 3.91/4 (17.92 / 20) <span class="text-muted h6" onclick="showCources()">which cources?</span></div>
+                                <div id="snackbar" class="snackbar">
+                                    which courses are excluded?:
+                                    <ul>
+                                        <li>COMPUTER STRUCT & LANG</li>
+                                        <li>DIGITAL SYSTEMS DESIGN</li>
+                                        <li>COMPILER DESIGN</li>
+                                        <li>DATABASE DESIGN</li>
+                                        <li>COMPILER DESIGN</li>
+                                        <li>PROGRAMMING LANGUAGES</li>
+                                    </ul>
+                                </div>
+                                <script>
+                                    function showCources() {
+                                        var x = document.getElementById("snackbar");
+                                        x.className = "show";
+                                        setTimeout(function () { x.className = x.className.replace("show", ""); }, 7000);
+                                    }
+                                </script>
                                 <div class="text-muted text-small mb-3">GPA : 3.7/4 (17.32 / 20)</div>
+
+
                                 <div>The Sharif University of Technology is a public research university in Tehran,
                                     Iran. It is widely considered as the nation's leading institution for science,
                                     technology, engineering, and mathematics fields. </div>
@@ -241,7 +262,9 @@
                                 <div class="card-body px-3 py-2">
                                     <p>Hopfully will be published in ACM SIGKDD. Co-Author of the paper along with:</p>
                                     <ul>
-                                        <li><a href="https://scholar.google.com/citations?user=fdUJcwYAAAAJ&hl=en">Dr. Sanjay Chawla</a> (Research Director of QCRI's Data Analytics Department)
+                                        <li><a href="https://scholar.google.com/citations?user=fdUJcwYAAAAJ&hl=en">Dr.
+                                                Sanjay Chawla</a> (Research Director of QCRI's Data Analytics
+                                            Department)
                                         </li>
                                         <li>Hessa Al-Thani (PhD student at the University of Michigan)</li>
                                     </ul>
@@ -261,7 +284,9 @@
                                     </div>
                                 </div>
                                 <div class="card-body px-3 py-2">
-                                    <p>A presentation for AI course of <a href="https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en">Prof. Mohammad Hossein Rohban</a> in Farsi</p>
+                                    <p>A presentation for AI course of <a
+                                            href="https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en">Prof.
+                                            Mohammad Hossein Rohban</a> in Farsi</p>
                                 </div>
                             </div>
                         </div>
@@ -323,7 +348,9 @@
                             <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
                                 <div class="card-header px-3 py-2">
                                     <div class="d-flex justify-content-between">
-                                        <div>Teacher assistant of <a href="https://scholar.google.com/citations?user=70Rmp1oAAAAJ&hl=en">Prof. Mohammad Ghodsi</a>.</h3>
+                                        <div>Teacher assistant of <a
+                                                href="https://scholar.google.com/citations?user=70Rmp1oAAAAJ&hl=en">Prof.
+                                                Mohammad Ghodsi</a>.</h3>
                                             <div class="text-muted text-small">DATA STRUCTURES & ALGORITHMS </div>
                                             <div class="text-muted text-small">Sharif University - Spring 2021 </div>
                                         </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux" />
@@ -343,7 +370,9 @@
                             <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
                                 <div class="card-header px-3 py-2">
                                     <div class="d-flex justify-content-between">
-                                        <div>Teacher assistant of <a href="https://scholar.google.com/citations?user=TNfL9SIAAAAJ">Prof. Mahdi Safarnejad-Boroujeni</a>.</h3>
+                                        <div>Teacher assistant of <a
+                                                href="https://scholar.google.com/citations?user=TNfL9SIAAAAJ">Prof.
+                                                Mahdi Safarnejad-Boroujeni</a>.</h3>
                                             <div class="text-muted text-small">DATA STRUCTURES & ALGORITHMS </div>
                                             <div class="text-muted text-small">Sharif University - Fall 2018 - Fall 2020
                                             </div>
@@ -368,7 +397,9 @@
                             <div class="card mb-3" data-aos="fade-right" data-aos-delay="300">
                                 <div class="card-header px-3 py-2">
                                     <div class="d-flex justify-content-between">
-                                        <div>Teacher assistant of <a href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en">Prof. Ali Sharifi-Zarchi</a></h3>
+                                        <div>Teacher assistant of <a
+                                                href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en">Prof.
+                                                Ali Sharifi-Zarchi</a></h3>
                                             <div class="text-muted text-small">Algorithm Design </div>
                                             <div class="text-muted text-small">Sharif University - Spring 2019 </div>
                                         </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux" />
@@ -376,7 +407,9 @@
                                 </div>
                                 <div class="card-body px-3 py-2">
                                     <ul>
-                                        <li>Wrote the lecture note for the course Algorithm Design <a href="https://github.com/asharifiz/Algorithms_Jupyter">Link of lectures </a> .
+                                        <li>Wrote the lecture note for the course Algorithm Design <a
+                                                href="https://github.com/asharifiz/Algorithms_Jupyter">Link of lectures
+                                            </a> .
                                         </li>
                                         <li>Designed and graded assignment and provided feedbacks to students</li>
                                     </ul>
@@ -395,9 +428,14 @@
                                 </div>
                                 <div class="card-body px-3 py-2">
                                     <ul>
-                                        <li><a href="https://telegra.ph/Mobile-App-Development-02-13">Prof. Omid Jafarinezhad</a>, <a href="https://telegra.ph/Mobile-App-Development-02-13">Mobile App Development Course</a></li>
-                                        <li><a href="https://scholar.google.com/citations?user=fKvyreEAAAAJ">Prof. Jafar Habibi</a>, Systems Analysis Design</li>
-                                        <li><a href="http://ce.sharif.edu/courses/97-98/1/ce153-12/index.php">Prof. Ali Taheri</a>, Fundamentals of Programming</li>
+                                        <li><a href="https://telegra.ph/Mobile-App-Development-02-13">Prof. Omid
+                                                Jafarinezhad</a>, <a
+                                                href="https://telegra.ph/Mobile-App-Development-02-13">Mobile App
+                                                Development Course</a></li>
+                                        <li><a href="https://scholar.google.com/citations?user=fKvyreEAAAAJ">Prof. Jafar
+                                                Habibi</a>, Systems Analysis Design</li>
+                                        <li><a href="http://ce.sharif.edu/courses/97-98/1/ce153-12/index.php">Prof. Ali
+                                                Taheri</a>, Fundamentals of Programming</li>
                                     </ul>
                                 </div>
                             </div>
@@ -423,7 +461,9 @@
                                 <div class="text-muted text-small mb-3">Fall 2021</div>
                                 <div>Designed a website for creating different models (especially neural network models)
                                     for training data with different methods
-                                    and compare them. This website is being used by Prof. <a href="https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en">Mahdi Jafari Siavoshani</a>'s Lab.
+                                    and compare them. This website is being used by Prof. <a
+                                        href="https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en">Mahdi Jafari
+                                        Siavoshani</a>'s Lab.
                                     At the computer engineering department of Sharif University </div>
                             </div>
                         </div>
@@ -436,7 +476,8 @@
                             <div class="timeline-body px-4 pb-4">
                                 <div class="text-muted text-small mb-3">Fall2019 - Spring 2022</div>
                                 <div>
-                                    <a href="https://www.linkedin.com/company/carriot-inc/">Carriot</a> is a cloud-based smart solution for delivery planning, route optimization,
+                                    <a href="https://www.linkedin.com/company/carriot-inc/">Carriot</a> is a cloud-based
+                                    smart solution for delivery planning, route optimization,
                                     and fleet management (delivery service) designed to help distributor companies
                                     reduce operating costs and boost their eﬀiciency.
                                     <ul>
@@ -456,7 +497,8 @@
                             </div>
                             <div class="timeline-body px-4 pb-4">
                                 <div class="text-muted text-small mb-3">Fall 2020</div>
-                                <div><a href="https://challenge.sharifgame.com/">Sharif Game Challenge</a> is a contest in which teaches a group of
+                                <div><a href="https://challenge.sharifgame.com/">Sharif Game Challenge</a> is a contest
+                                    in which teaches a group of
                                     talented students to create a game application
                                 </div>
                             </div>
